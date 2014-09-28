@@ -99,7 +99,7 @@ Licence: GPL
 #define Z_PROBE_STOP_HEIGHT (0.7) // mm
 #define Z_PROBE_PIN (10) 						// Analogue pin number
 #define Z_PROBE_MOD_PIN (52)					// Digital pin number to turn the IR LED on (high) or off (low)
-#define Z_PROBE_AXES {true, false, true}		// Axes for which the Z-probe is normally used
+#define Z_PROBE_AXES {false, false, true}		// Axes for which the Z-probe is normally used
 const unsigned int numZProbeReadingsAveraged = 8;	// we average this number of readings with IR on, and the same number with IR off
 
 #define MAX_FEEDRATES {100.0, 100.0, 3.0, 20.0, 20.0, 20.0, 20.0, 20.0} // mm/sec
